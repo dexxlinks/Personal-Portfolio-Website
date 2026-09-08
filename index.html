@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Daniel Ovie — Computer Science Student & Aspiring Software Developer</title>
+<meta name="description" content="Portfolio of Daniel Ovie, a Computer Science student at the University of Ilorin building web projects and exploring software development." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ================= NAV ================= -->
+<header class="site-header" id="siteHeader">
+  <nav class="nav" aria-label="Primary">
+    <a href="#home" class="logo" aria-label="Daniel Ovie, home">
+      <span class="logo-mark">DO<span class="logo-dot">.</span></span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active-link" data-nav>Home</a></li>
+      <li><a href="#about" class="nav-link" data-nav>About</a></li>
+      <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
+      <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+      <li><a href="#experience" class="nav-link" data-nav>Experience</a></li>
+      <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" aria-pressed="false">
+        <svg id="iconMoon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+        <svg id="iconSun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" hidden><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Aspiring Software Developer</p>
+        <h1 class="hero-name">Daniel Ovie</h1>
+        <h2 class="hero-role">Computer Science Student <span class="pipe">|</span> Juinor Frontend Developer</h2>
+        <p class="hero-desc">
+          I'm a 200-level Computer Science student at the University of Ilorin, building small
+          web experiences and working through real projects to learn software development
+          properly &mdash; not just in theory. I'm currently comfortable with HTML, CSS, JavaScript,
+          Python and C++, and I'm exploring data analysis alongside my coursework.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="editor-card">
+          <div class="editor-titlebar">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+            <span class="editor-filename">daniel.js</span>
+          </div>
+          <pre class="editor-body"><code id="typedCode"></code><span class="cursor-blink" id="cursorBlink">&nbsp;</span></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>About</h2>
+        <p class="section-sub">Where I'm starting from, and how I like to work.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>
+            I'm a Computer Science student at the University of Ilorin, currently in my second year.
+            My interest in software development started with curiosity about how websites and
+            applications actually work, and it's grown into a genuine focus on web development,
+            programming fundamentals, and data analysis.
+          </p>
+          <p>
+            I'm still early in my journey, so I try to be honest about where I am: I'm not an
+            expert, and I don't claim professional experience I haven't had. What I do have is
+            consistency &mdash; I work through concepts by building small projects, reading
+            documentation, and gradually taking on things that are slightly outside my comfort
+            zone.
+          </p>
+          <p>
+            My approach to learning is fairly structured: understand the fundamentals first,
+            build something with them, break it, fix it, and repeat. I'm currently focused on
+            strengthening my development skills and putting together real-world projects I can
+            keep improving as I learn more.
+          </p>
+        </div>
+
+        <aside class="about-card reveal" aria-label="Quick facts">
+          <ul class="fact-list">
+            <li><span class="fact-label">Field</span><span class="fact-value">Computer Science</span></li>
+            <li><span class="fact-label">School</span><span class="fact-value">University of Ilorin</span></li>
+            <li><span class="fact-label">Level</span><span class="fact-value">200 Level</span></li>
+            <li><span class="fact-label">Based in</span><span class="fact-value">Nigeria</span></li>
+            <li><span class="fact-label">Focus</span><span class="fact-value">Web Dev &amp; Data</span></li>
+            <li><span class="fact-label">Status</span><span class="fact-value status-open">Open to opportunities</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Skills</h2>
+        <p class="section-sub">Technologies I'm learning and actively using. The dots reflect how comfortable I currently am &mdash; not a claim of mastery.</p>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid"><!-- populated by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Projects</h2>
+        <p class="section-sub">A few sample builds to show structure and intent. Marked clearly &mdash; my real project list is still growing.</p>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"><!-- populated by script.js --></div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE / JOURNEY ================= -->
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Learning &amp; development journey</h2>
+        <p class="section-sub">No employment history yet; I've been building toward it, here is a timeline.</p>
+      </div>
+
+      <ol class="commit-log" id="commitLog"><!-- populated by script.js --></ol>
+
+      <div class="education-card reveal">
+        <div class="education-icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
+        </div>
+        <div class="education-body">
+          <h3>University of Ilorin</h3>
+          <p class="education-meta">B.Sc. Computer Science <span class="dot-sep">&middot;</span> 200 Level <span class="dot-sep">&middot;</span> In progress</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <div class="section-inner">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+        <p class="section-sub">Open to internships,, collaborations, and junior developer roles.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a class="contact-link" href="mailto:danielovie744@gmail.com">
+            <span class="contact-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="m4 6 8 7 8-7"/></svg>
+            </span>
+            <span>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">danielovie744@gmail.com</span>
+            </span>
+          </a>
+
+          <a class="contact-link" href="https://github.com/dexxlinks" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+            </span>
+            <span>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">github.com/dexxlinks</span>
+            </span>
+          </a>
+
+         
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="nameError" />
+            <span class="form-error" id="nameError" role="alert"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="emailError" />
+            <span class="form-error" id="emailError" role="alert"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required aria-describedby="messageError"></textarea>
+            <span class="form-error" id="messageError" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">DO<span class="logo-dot">.</span></span>
+      <p class="footer-tagline">Building things, one project at a time.</p>
+    </div>
+
+    <div class="footer-socials" aria-label="Social links">
+      <a href="https://github.com/dexxlinks" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+      <a href="mailto:danielovie744@gmail.com" aria-label="Email">Email</a>
+    </div>
+
+    <p class="footer-copy">&copy; <span id="currentYear"></span> Daniel Ovie. All rights reserved.</p>
+  </div>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m18 15-6-6-6 6"/></svg>
+  </button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
