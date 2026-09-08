@@ -242,7 +242,7 @@ const PROJECTS_DATA = [
       "This site, a responsive, dark-themed portfolio built from scratch with plain HTML, CSS and JavaScript to practice layout, accessibility and animation.",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/dexxlinks/Personal-Portfolio-Website.git",
-    demo: "#",
+    demo: "https://dexxlinks.github.io/Personal-Portfolio-Website/",
   },
   {
     name: "Number Information Analyzer",
@@ -264,9 +264,9 @@ const PROJECTS_DATA = [
     name: "Expense Tracker",
     description: "A simple web application to track basic expenses.",
     tech: ["HTML", "CSS", "JavaScript"],
-    github: "#",
-    demo: "#",
-    sample: true,
+    github: "https://github.com/dexxlinks/Expense-tracker.git",
+    demo: "https://dexxlinks.github.io/Expense-tracker/",
+    
   }
 ];
 
