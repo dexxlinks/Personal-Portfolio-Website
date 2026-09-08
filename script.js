@@ -322,7 +322,7 @@ function renderProjects() {
 
       <h3>More projects coming soon</h3>
       <p>
-        I'm actively building. Real, completed projects will be added
+        I'm still building. more completed projects will be added
         as soon as they are finished.
       </p>
     </article>
