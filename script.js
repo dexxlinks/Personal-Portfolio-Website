@@ -424,7 +424,7 @@ function initHeroTyping() {
     { text: ",\n", cls: "tok-punc" },
     { text: " available", cls: "tok-key" },
     { text: ": ", cls: "tok-punc" },
-    { text: '"internships, SIWES, collabs"', cls: "tok-str" },
+    { text: '"internships, jobs, collabs"', cls: "tok-str" },
     { text: "\n};", cls: "tok-punc" },
   ];
 
@@ -575,7 +575,7 @@ function submitContactForm(values, form, status) {
     console.log("Contact form submitted (not actually sent):", values);
 
     status.textContent =
-      "The backend isn't connected yet, but I'm still working on it. Thanks for reaching out — my email is active.";
+      "The backend isn't connected yet, but I'm working on it. Thanks for reaching trying to reach out, my email is active though.";
 
     status.classList.add("success");
     form.reset();
