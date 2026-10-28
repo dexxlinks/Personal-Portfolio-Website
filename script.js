@@ -267,7 +267,14 @@ const PROJECTS_DATA = [
     github: "https://github.com/dexxlinks/Expense-tracker.git",
     demo: "https://dexxlinks.github.io/Expense-tracker/",
     
-  }
+  },
+   {
+    name: "Skyward Weather App",
+    description: "A responsive weather dashboard that displays current weather conditions, a 24-hour forecast, and a 7-day outlook, featuring city search, location detection, temperature conversion, and theme switching.",
+    tech: ["HTML", "CSS", "JavaScript", "API Integration"],
+    github: "https://github.com/dexxlinks/Skyward-Weather-app",
+    demo: "https://dexxlinks.github.io/Skyward-Weather-app/",
+   }
 ];
 
 function renderProjects() {
